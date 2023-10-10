@@ -9,5 +9,5 @@ Types of Graphs
 - Directed/Undirected Graphs
 
 Types Graphs Traversald
-- bfs
-- dfs
+- BFS , queue (iterative code)
+- DFS , stack (recursive code)
