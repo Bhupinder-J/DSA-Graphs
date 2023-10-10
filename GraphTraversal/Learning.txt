@@ -1,0 +1,13 @@
+Ways to store Graphs
+- Adjacency List , space = O(2*V)
+- Adjacency Matrix, space = O(V^2)
+- Edge List, space = O(E)
+- Implicit Graphs
+
+Types of Graphs
+- Weighted/Unweighted Graphs
+- Directed/Undirected Graphs
+
+Types Graphs Traversald
+- bfs
+- dfs
