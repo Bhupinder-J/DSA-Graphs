@@ -25,7 +25,7 @@ public:
 
         while(pv.size()){
             int cv = pv.front();
-            cout << cv <<" ";
+            // cout << cv <<" ";
             pv.pop();
 
             for(int x : l[cv]) if(!vis[x]){
@@ -33,7 +33,7 @@ public:
                 vis[x] = true;
             }
         }
-        cout << endl;
+        // cout << endl;
     }
     void dfs(int sv){
         vector<bool> vis(v, false);
@@ -47,10 +47,8 @@ public:
             cout << endl;
         }
     }
-private:
     void dfs_helper(int sv, vector<bool> &vis){
-        cout << sv <<" ";
-
+        // cout << sv <<" ";
         vis[sv] = true;
         for(int x : l[sv]) if(!vis[x]){
             dfs_helper(x, vis);
