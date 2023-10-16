@@ -1,4 +1,10 @@
 Tree = Subset of Graphs
-- For n nodes -> n-1 edges
 - No cycles
 - All nodes connected
+
+- Every pair of nodes will hace exactly one path between them
+-> they have a path && the path is unique
+
+
+Forest
+- All components are Trees
