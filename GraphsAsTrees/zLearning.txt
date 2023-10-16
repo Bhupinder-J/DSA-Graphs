@@ -1,0 +1,4 @@
+Tree = Subset of Graphs
+- For n nodes -> n-1 edges
+- No cycles
+- All nodes connected
