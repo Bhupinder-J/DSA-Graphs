@@ -29,7 +29,7 @@ int LCA(int x, int y, vi &dep, vvi &par){
 			x = par[x][i];
 		}
 	}
-
+	if(x == y) return x;
 	for(int i=19 ; i>=0 ; i--){
 		if(par[x][i] != par[y][i]){
 			x = par[x][i];
@@ -51,14 +51,5 @@ signed main(){
 
 	dfs(1, 0, edge, dep, par);
 
-	// for(int i=0 ; i<n ; i++){
-	// 	cout << i+1 <<" -> ";
-	// 	for(int j=0 ; j<4 ; j++)
-	// 		cout << par[i+1][j] <<" ";
-	// 	cout << endl;
-	// }
-
-	cout << LCA(9, 12, dep, par) << endl;
-	cout << LCA(10, 8, dep, par) << endl;
-	cout << LCA(9, 11, dep, par) << endl;
+	cout << LCA(3, 5, dep, par) << endl;
 }
