@@ -1,10 +1,14 @@
-Tree = Subset of Graphs
+Tree (Subset of Graphs)
+(1)
 - No cycles
 - All nodes connected
-
+(2)
 - Every pair of nodes will hace exactly one path between them
 -> they have a path && the path is unique
 
-
 Forest
 - All components are Trees
+
+Articulation point
+
+Bridges
